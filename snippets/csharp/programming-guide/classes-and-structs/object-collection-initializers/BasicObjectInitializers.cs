@@ -277,7 +277,7 @@ namespace object_collection_initializers
                 = new RudimentaryMultiValuedDictionary<string, string>()
                 {
                     {"Group1", new string []{ "Bob", "John", "Mary" } },
-                    { "Group2", new string[]{ "Eric", "Emily", "Debbie", "Jesse" } }
+                    {"Group2", new string[]{ "Eric", "Emily", "Debbie", "Jesse" } }
                 };
 
             Console.WriteLine("Using first multi-valued dictionary created with a collection initializer:");
